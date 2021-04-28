@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iot-see"
+version = "0.1.0"
+description = ""
+authors = ["matt-rdsglobal <34048460+mahew@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+opencv-python = "^4.5.1"
+imutils = "^0.5.4"
+scipy = "1.5.2"
+pymongo = "^3.11.3"
+dnspython = "^2.1.0"
+dlib = "^19.22.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
